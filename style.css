@@ -1,0 +1,35 @@
+body {
+  background-color: #d9ebff;
+  text-align: center;
+}
+
+#row1, #row2, #row3{
+    display: flex;
+    margin-left: 32rem;
+}
+
+.square {
+    height: 160px;
+    width: 160px;
+    border: solid;
+}
+
+.square p{
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+}
+
+.square p.red{
+    color: red;
+    font-size: 100px;
+}
+.square p.black{
+    color: black;
+    font-size: 100px;
+}
+
+.square:hover {
+  background: #69aeff;
+  cursor: pointer;
+}
